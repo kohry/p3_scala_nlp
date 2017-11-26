@@ -16,3 +16,7 @@ val xs4 = List.tabulate(5)(_ * 1)
 
 xs4.drop(2)
 xs4.dropRight(2)
+
+val aaa:Array[Double] = Array(1,2,3,4,5,32,2,1)
+
+aaa.drop(1).zipWithIndex
